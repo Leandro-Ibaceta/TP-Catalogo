@@ -1,0 +1,9 @@
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\bin\Debug\CatalogoProyectoFinal.exe.config
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\bin\Debug\CatalogoProyectoFinal.exe
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\bin\Debug\CatalogoProyectoFinal.pdb
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\obj\Debug\CatalogoProyectoFinal.csproj.AssemblyReference.cache
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\obj\Debug\CatalogoProyectoFinal.Properties.Resources.resources
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\obj\Debug\CatalogoProyectoFinal.csproj.GenerateResource.cache
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\obj\Debug\CatalogoProyectoFinal.csproj.CoreCompileInputs.cache
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\obj\Debug\CatalogoProyectoFinal.exe
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\obj\Debug\CatalogoProyectoFinal.pdb
