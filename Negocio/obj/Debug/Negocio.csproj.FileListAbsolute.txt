@@ -1,0 +1,9 @@
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\Negocio\bin\Debug\Negocio.dll
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\Negocio\bin\Debug\Negocio.pdb
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\Negocio\bin\Debug\Dominio.dll
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\Negocio\bin\Debug\Dominio.pdb
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\Negocio\obj\Debug\Negocio.dll
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\Negocio\obj\Debug\Negocio.pdb

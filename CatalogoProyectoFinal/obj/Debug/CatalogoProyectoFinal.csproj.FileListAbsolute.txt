@@ -7,3 +7,9 @@ C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\o
 C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\obj\Debug\CatalogoProyectoFinal.csproj.CoreCompileInputs.cache
 C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\obj\Debug\CatalogoProyectoFinal.exe
 C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\obj\Debug\CatalogoProyectoFinal.pdb
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\bin\Debug\Dominio.dll
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\bin\Debug\Negocio.dll
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\bin\Debug\Dominio.pdb
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\bin\Debug\Negocio.pdb
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\obj\Debug\CatalogoProyectoFinal.Form1.resources
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\obj\Debug\CatalogoProyectoFinal.csproj.CopyComplete
