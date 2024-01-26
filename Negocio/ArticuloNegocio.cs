@@ -54,5 +54,58 @@ namespace Negocio
 
             
         }
+
+        public void AgregarArticulo(Articulo articulo)
+        {
+            AccesoDatos negocio = new AccesoDatos();
+
+            try
+            {
+                negocio.SetearConsulta("Insert into ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, ImagenUrl, Precio) Values('@codigo', '@nombre', '@descripcion', @idMarca ,@idCategoria, '@imagenUrl', @precio)");
+                negocio.SetearParametro("codigo", articulo.Codigo);
+                negocio.SetearParametro("nombre", articulo.Nombre);
+                negocio.SetearParametro("descripcion", articulo.Descripcion);
+                negocio.SetearParametro("idMarca", articulo.Marca.Id);
+                negocio.SetearParametro("idCategoria", articulo.Categoria.Id);
+                negocio.SetearParametro("imagenUrl", articulo.UrlImagen);
+                negocio.SetearParametro("precio", articulo.Precio);
+
+                negocio.EjecutarAccion();
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+            finally
+            {
+                negocio.CerrarConexion();
+            }
+        }
+
+        public void EliminarArticulo(Articulo articulo)
+        {
+            AccesoDatos negocio = new AccesoDatos();
+
+            try
+            {
+                negocio.SetearConsulta("Delete from ARTICULOS where Id = @id");
+                negocio.SetearParametro("id", articulo.Id);
+
+                negocio.EjecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                negocio.CerrarConexion();
+            }
+        }
     }
 }

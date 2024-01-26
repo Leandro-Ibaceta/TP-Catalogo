@@ -13,3 +13,4 @@ C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\b
 C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\bin\Debug\Negocio.pdb
 C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\obj\Debug\CatalogoProyectoFinal.Form1.resources
 C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\obj\Debug\CatalogoProyectoFinal.csproj.CopyComplete
+C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\CatalogoProyectoFinal\obj\Debug\CatalogoProyectoFinal.VentanaAccion.resources

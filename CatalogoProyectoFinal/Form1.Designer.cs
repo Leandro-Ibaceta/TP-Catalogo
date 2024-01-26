@@ -47,12 +47,14 @@
             this.dgvCatalogo.Name = "dgvCatalogo";
             this.dgvCatalogo.Size = new System.Drawing.Size(732, 288);
             this.dgvCatalogo.TabIndex = 0;
+            this.dgvCatalogo.CurrentCellChanged += new System.EventHandler(this.dgvCatalogo_CurrentCellChanged);
             // 
             // pboxArticulos
             // 
-            this.pboxArticulos.Location = new System.Drawing.Point(779, 106);
+            this.pboxArticulos.Location = new System.Drawing.Point(787, 106);
             this.pboxArticulos.Name = "pboxArticulos";
             this.pboxArticulos.Size = new System.Drawing.Size(306, 288);
+            this.pboxArticulos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pboxArticulos.TabIndex = 1;
             this.pboxArticulos.TabStop = false;
             // 
@@ -64,6 +66,7 @@
             this.btnAgregar.TabIndex = 2;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnModificar
             // 
@@ -73,6 +76,7 @@
             this.btnModificar.TabIndex = 3;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnEliminar
             // 
@@ -82,6 +86,7 @@
             this.btnEliminar.TabIndex = 4;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnSalir
             // 
@@ -91,6 +96,7 @@
             this.btnSalir.TabIndex = 5;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // txtboxBuscador
             // 
