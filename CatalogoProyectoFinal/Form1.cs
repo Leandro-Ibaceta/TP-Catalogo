@@ -37,7 +37,25 @@ namespace CatalogoProyectoFinal
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            AbrirVentana("Eliminar Articulo");
+            try
+            {
+                DialogResult resultado = MessageBox.Show("¿Esta seguro que quiere eliminarlo?","Eliminacion de articulo" ,MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (resultado == DialogResult.Yes)
+                {
+                    ArticuloNegocio negocio = new ArticuloNegocio();
+                    Articulo seleccionado = (Articulo)dgvCatalogo.CurrentRow.DataBoundItem;
+
+                    negocio.EliminarArticulo(seleccionado.Id);
+                    CargarLista();
+
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+            
         }
         private void btnSalir_Click(object sender, EventArgs e)
         {
@@ -82,6 +100,13 @@ namespace CatalogoProyectoFinal
             listaArticulos = negocio.ListarArticulos();
             dgvCatalogo.DataSource = listaArticulos;
             MostrarImagen(listaArticulos[0].UrlImagen);
+            OcultarColumna();
+            
+        }
+
+        private void OcultarColumna()
+        {
+            dgvCatalogo.Columns["UrlImagen"].Visible = false;
         }
 
     }

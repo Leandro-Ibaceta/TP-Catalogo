@@ -29,7 +29,7 @@ namespace Negocio
 
                     aux.Marca = new Marca();
                     aux.Marca.Descripcion = (string)datos.Lector["Marca"];
-                    aux.Categoria = new Categoria();
+                    aux.Categoria = new Marca();
                     aux.Categoria.Descripcion = (string)datos.Lector["Categoria"];
 
                     aux.UrlImagen = (string)datos.Lector["ImagenUrl"];
@@ -65,8 +65,8 @@ namespace Negocio
                 negocio.SetearParametro("codigo", articulo.Codigo);
                 negocio.SetearParametro("nombre", articulo.Nombre);
                 negocio.SetearParametro("descripcion", articulo.Descripcion);
-                negocio.SetearParametro("idMarca", articulo.Marca.Id);
-                negocio.SetearParametro("idCategoria", articulo.Categoria.Id);
+                negocio.SetearParametro("idMarca", (object)articulo.Marca.Id);
+                negocio.SetearParametro("idCategoria", (object)articulo.Categoria.Id);
                 negocio.SetearParametro("imagenUrl", articulo.UrlImagen);
                 negocio.SetearParametro("precio", articulo.Precio);
 
@@ -86,14 +86,14 @@ namespace Negocio
             }
         }
 
-        public void EliminarArticulo(Articulo articulo)
+        public void EliminarArticulo(int id)
         {
             AccesoDatos negocio = new AccesoDatos();
 
             try
             {
                 negocio.SetearConsulta("Delete from ARTICULOS where Id = @id");
-                negocio.SetearParametro("id", articulo.Id);
+                negocio.SetearParametro("id", id);
 
                 negocio.EjecutarAccion();
             }

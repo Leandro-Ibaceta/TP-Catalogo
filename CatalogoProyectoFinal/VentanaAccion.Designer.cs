@@ -42,33 +42,35 @@
             this.btnCancelar = new System.Windows.Forms.Button();
             this.txtBoxUrlImagen = new System.Windows.Forms.TextBox();
             this.txtBoxPrecio = new System.Windows.Forms.TextBox();
+            this.cboBoxMarca = new System.Windows.Forms.ComboBox();
+            this.cboBoxCategoria = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // txtBoxCodigo
             // 
-            this.txtBoxCodigo.Location = new System.Drawing.Point(137, 60);
+            this.txtBoxCodigo.Location = new System.Drawing.Point(137, 53);
             this.txtBoxCodigo.Name = "txtBoxCodigo";
-            this.txtBoxCodigo.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxCodigo.Size = new System.Drawing.Size(121, 20);
             this.txtBoxCodigo.TabIndex = 0;
             // 
             // txtBoxNombre
             // 
-            this.txtBoxNombre.Location = new System.Drawing.Point(137, 122);
+            this.txtBoxNombre.Location = new System.Drawing.Point(137, 98);
             this.txtBoxNombre.Name = "txtBoxNombre";
-            this.txtBoxNombre.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxNombre.Size = new System.Drawing.Size(121, 20);
             this.txtBoxNombre.TabIndex = 1;
             // 
             // txtBoxDescripcion
             // 
-            this.txtBoxDescripcion.Location = new System.Drawing.Point(137, 200);
+            this.txtBoxDescripcion.Location = new System.Drawing.Point(137, 139);
             this.txtBoxDescripcion.Name = "txtBoxDescripcion";
-            this.txtBoxDescripcion.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxDescripcion.Size = new System.Drawing.Size(121, 20);
             this.txtBoxDescripcion.TabIndex = 2;
             // 
             // lblCodigo
             // 
             this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Location = new System.Drawing.Point(46, 66);
+            this.lblCodigo.Location = new System.Drawing.Point(46, 59);
             this.lblCodigo.Name = "lblCodigo";
             this.lblCodigo.Size = new System.Drawing.Size(40, 13);
             this.lblCodigo.TabIndex = 3;
@@ -77,7 +79,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(46, 125);
+            this.label2.Location = new System.Drawing.Point(46, 101);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 4;
@@ -86,7 +88,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(46, 203);
+            this.label3.Location = new System.Drawing.Point(46, 142);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 13);
             this.label3.TabIndex = 5;
@@ -95,7 +97,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(46, 254);
+            this.label4.Location = new System.Drawing.Point(46, 185);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 13);
             this.label4.TabIndex = 6;
@@ -104,7 +106,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(46, 300);
+            this.label1.Location = new System.Drawing.Point(46, 231);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(37, 13);
             this.label1.TabIndex = 7;
@@ -113,7 +115,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(46, 350);
+            this.label5.Location = new System.Drawing.Point(46, 281);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(37, 13);
             this.label5.TabIndex = 8;
@@ -122,7 +124,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(46, 396);
+            this.label6.Location = new System.Drawing.Point(46, 324);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(52, 13);
             this.label6.TabIndex = 9;
@@ -130,41 +132,61 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(60, 455);
+            this.btnAgregar.Location = new System.Drawing.Point(80, 395);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
             this.btnAgregar.TabIndex = 10;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(312, 455);
+            this.btnCancelar.Location = new System.Drawing.Point(332, 395);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 11;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // txtBoxUrlImagen
             // 
-            this.txtBoxUrlImagen.Location = new System.Drawing.Point(137, 254);
+            this.txtBoxUrlImagen.Location = new System.Drawing.Point(137, 185);
             this.txtBoxUrlImagen.Name = "txtBoxUrlImagen";
-            this.txtBoxUrlImagen.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxUrlImagen.Size = new System.Drawing.Size(121, 20);
             this.txtBoxUrlImagen.TabIndex = 12;
             // 
             // txtBoxPrecio
             // 
-            this.txtBoxPrecio.Location = new System.Drawing.Point(137, 300);
+            this.txtBoxPrecio.Location = new System.Drawing.Point(137, 231);
             this.txtBoxPrecio.Name = "txtBoxPrecio";
-            this.txtBoxPrecio.Size = new System.Drawing.Size(100, 20);
+            this.txtBoxPrecio.Size = new System.Drawing.Size(121, 20);
             this.txtBoxPrecio.TabIndex = 13;
+            // 
+            // cboBoxMarca
+            // 
+            this.cboBoxMarca.FormattingEnabled = true;
+            this.cboBoxMarca.Location = new System.Drawing.Point(137, 273);
+            this.cboBoxMarca.Name = "cboBoxMarca";
+            this.cboBoxMarca.Size = new System.Drawing.Size(121, 21);
+            this.cboBoxMarca.TabIndex = 14;
+            // 
+            // cboBoxCategoria
+            // 
+            this.cboBoxCategoria.FormattingEnabled = true;
+            this.cboBoxCategoria.Location = new System.Drawing.Point(137, 324);
+            this.cboBoxCategoria.Name = "cboBoxCategoria";
+            this.cboBoxCategoria.Size = new System.Drawing.Size(121, 21);
+            this.cboBoxCategoria.TabIndex = 15;
             // 
             // VentanaAccion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(540, 535);
+            this.ClientSize = new System.Drawing.Size(521, 458);
+            this.Controls.Add(this.cboBoxCategoria);
+            this.Controls.Add(this.cboBoxMarca);
             this.Controls.Add(this.txtBoxPrecio);
             this.Controls.Add(this.txtBoxUrlImagen);
             this.Controls.Add(this.btnCancelar);
@@ -180,7 +202,9 @@
             this.Controls.Add(this.txtBoxNombre);
             this.Controls.Add(this.txtBoxCodigo);
             this.Name = "VentanaAccion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VentanaAccion";
+            this.Load += new System.EventHandler(this.VentanaAccion_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -202,5 +226,7 @@
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.TextBox txtBoxUrlImagen;
         private System.Windows.Forms.TextBox txtBoxPrecio;
+        private System.Windows.Forms.ComboBox cboBoxMarca;
+        private System.Windows.Forms.ComboBox cboBoxCategoria;
     }
 }
