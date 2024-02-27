@@ -56,12 +56,24 @@ namespace CatalogoProyectoFinal
 
             try
             {
+
                 cboBoxCategoria.DataSource = categoriaNegocio.Listar();
                 cboBoxCategoria.ValueMember = "Id";
                 cboBoxCategoria.DisplayMember = "Descripcion";
                 cboBoxMarca.DataSource = marcaNegocio.Listar();
                 cboBoxMarca.ValueMember = "Id";
                 cboBoxMarca.DisplayMember = "Descripcion";
+
+                if(articulo != null)
+                {
+                    txtBoxCodigo.Text = articulo.Codigo;
+                    txtBoxNombre.Text = articulo.Nombre;
+                    txtBoxDescripcion.Text = articulo.Descripcion;
+                    txtBoxUrlImagen.Text = articulo.UrlImagen;
+                    txtBoxPrecio.Text = articulo.Precio.ToString();
+                    cboBoxMarca.SelectedValue = articulo.Marca.Id;
+                    cboBoxCategoria.SelectedValue = articulo.Categoria.Id;
+                }
 
             }
             catch (Exception ex)
@@ -71,5 +83,6 @@ namespace CatalogoProyectoFinal
             }
 
         }
+
     }
 }

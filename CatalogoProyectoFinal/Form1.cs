@@ -28,11 +28,22 @@ namespace CatalogoProyectoFinal
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            AbrirVentana("Agregar Articulo");
+            VentanaAccion ventana = new VentanaAccion();
+            ventana.Text = "Agregar Articulo";
+            ventana.ShowDialog();
+
+            CargarLista();
         }
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            AbrirVentana("Modificar Articulo");
+            Articulo modificar;
+            modificar = (Articulo)dgvCatalogo.CurrentRow.DataBoundItem;
+            VentanaAccion ventana = new VentanaAccion(modificar);
+            ventana.Text = "Modificar Articulo";
+            ventana.ShowDialog();
+
+            CargarLista();
+            
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -73,13 +84,7 @@ namespace CatalogoProyectoFinal
 
         //Metodos
 
-        private void AbrirVentana(string nombreVentana)
-        {
-            VentanaAccion nuevaVentana = new VentanaAccion();
-            nuevaVentana.Text = nombreVentana;
-            nuevaVentana.ShowDialog();
-
-        }
+        
 
         private void MostrarImagen(string imagen)
         {
