@@ -4,3 +4,9 @@ C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\Dominio\obj\Debug\Domin
 C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\Dominio\obj\Debug\Dominio.dll
 C:\Users\ibace\Documents\Proyectos\TPFinalNivel2_Ibaceta\Dominio\obj\Debug\Dominio.pdb
+C:\Users\ibace\Documents\Proyectos\TP-Catalogo\Dominio\bin\Debug\Dominio.dll
+C:\Users\ibace\Documents\Proyectos\TP-Catalogo\Dominio\bin\Debug\Dominio.pdb
+C:\Users\ibace\Documents\Proyectos\TP-Catalogo\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\ibace\Documents\Proyectos\TP-Catalogo\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\ibace\Documents\Proyectos\TP-Catalogo\Dominio\obj\Debug\Dominio.dll
+C:\Users\ibace\Documents\Proyectos\TP-Catalogo\Dominio\obj\Debug\Dominio.pdb

@@ -40,6 +40,7 @@ namespace CatalogoProyectoFinal
             modificar = (Articulo)dgvCatalogo.CurrentRow.DataBoundItem;
             VentanaAccion ventana = new VentanaAccion(modificar);
             ventana.Text = "Modificar Articulo";
+            
             ventana.ShowDialog();
 
             CargarLista();
@@ -98,7 +99,7 @@ namespace CatalogoProyectoFinal
                 pboxArticulos.Load("https://www.afim.com.eg/public/images/no-photo.png");
             }
         }
-
+        //Muestra la lista de articulos en la ventana principal
         private void CargarLista()
         {
             ArticuloNegocio negocio = new ArticuloNegocio();
